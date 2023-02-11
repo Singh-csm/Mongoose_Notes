@@ -59,3 +59,40 @@ const userSchema = new Schema({
 
 module.exports = mongoose.model('User', userSchema);
 ```
+- In this example, we define a Mongoose schema for a User document. The schema specifies the fields and data types for the user document, as well as any validation rules.
+
+### Here is a list of some of the most commonly used Mongoose methods:
+
+- ```find()``` - retrieves one or more documents that match the specified conditions.
+
+- ```findOne()``` - retrieves a single document that matches the specified conditions.
+
+- ```findById()``` - retrieves a document by its _id field.
+
+- ```save()``` - saves a document to the database.
+
+- ```updateOne()``` - updates a single document that matches the specified conditions.
+
+- ```updateMany()``` - updates multiple documents that match the specified conditions.
+
+- ```deleteOne()``` - deletes a single document that matches the specified conditions.
+
+- ```deleteMany()``` - deletes multiple documents that match the specified conditions.
+
+- ```countDocuments()``` - counts the number of documents that match the specified conditions.
+
+- ```aggregate()``` - performs an aggregation operation on the data, such as grouping or summarizing.
+
+- ```model()``` - creates a model from a schema, which allows you to interact with the corresponding collection in the database.
+
+- ```populate()``` - populates a document with data from related documents, allowing you to perform complex queries and relationships between documents.
+
+- ```create()``` - creates and saves a document in a single operation.
+
+- ```findOneAndUpdate()``` - finds a single document and updates it, returning the updated document.
+
+- ```findOneAndDelete()``` - finds a single document and deletes it, returning the deleted document.
+
+- ```findByIdAndUpdate()``` - finds a document by its _id field and updates it, returning the updated document.
+
+- ```findByIdAndDelete()``` - finds a document by its _id field and deletes it, returning the deleted document.
