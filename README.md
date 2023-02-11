@@ -99,4 +99,25 @@ module.exports = mongoose.model('User', userSchema);
 
 - ```findByIdAndDelete()``` - finds a document by its _id field and deletes it, returning the deleted document.
 
+## Mongoose is an important tool for developing applications with MongoDB for several reasons:
+
+- ```Schema Validation```: Mongoose provides built-in validation for the data you store in your MongoDB database. This helps ensure that the data stored in the database meets the requirements and constraints of your application.
+
+- ```Object Mapping```: Mongoose maps JavaScript objects to MongoDB documents, making it easy to work with your data in a familiar and intuitive way.
+
+- ```Query Builder```: Mongoose provides a simple and convenient query builder that makes it easy to perform complex queries and aggregation operations on your data.
+
+- ```Middleware```: Mongoose provides a powerful middleware system that allows you to perform actions before and after certain events, such as saving a document, updating a document, or deleting a document.
+
+- ```Virtual Properties```: Mongoose allows you to define virtual properties, which are computed values that can be derived from other properties in a document. This allows you to keep your database lean and optimized.
+
+- ```Population```: Mongoose provides a population feature that allows you to easily retrieve and populate related documents in a single query, making it easy to perform complex relationships between documents.
+
+- ```Custom Methods```: Mongoose allows you to define custom methods on your models, making it easy to encapsulate complex business logic within your data model.
+
+- ```Transactions```: Mongoose provides support for transactions, allowing you to perform multiple operations as a single atomic operation.
+
+In summary, Mongoose provides a flexible and easy-to-use solution for developing applications with MongoDB, while also providing powerful features that allow you to ensure the integrity of your data and perform complex operations on your data.
+
+
 - ```Thankyou! 💚```
