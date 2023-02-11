@@ -119,11 +119,11 @@ module.exports = mongoose.model('User', userSchema);
 
 
 
-### ```sort()```, ```limit()```, and ```skip()``` are Mongoose query options that are used to manipulate the results of a query. Here's a brief explanation of each:
+## ```sort()```, ```limit()```, and ```skip()``` are Mongoose query options that are used to manipulate the results of a query. Here's a brief explanation of each:
 
 - sort(): This option allows you to sort the results of a query in ascending or descending order based on the value of one or more fields. For example, you can sort the results of a query by the "createdAt" field in descending order using the following code:
 
-                    ```Model.find().sort({createdAt: -1});```
+                    Model.find().sort({createdAt: -1});
 - limit(): This option allows you to limit the number of results returned by a query. For example, you can limit the results of a query to 10 documents using the following code:
 
                     ``` { Model.find().limit(10); }```
