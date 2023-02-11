@@ -1,7 +1,7 @@
 # Mongoose_Notes
 ## Mongoose is an Object Data Modeling (ODM) library for MongoDB and Node.js.
 
-## Here are some key points you can include in your notes on Mongoose:
+### Here are some key points you can include in your notes on Mongoose:
 
 - Mongoose is an ```Object Data Modeling (ODM)``` library for MongoDB and Node.js.
 
@@ -59,7 +59,9 @@ const userSchema = new Schema({
 
 module.exports = mongoose.model('User', userSchema);
 ```
+
 - In this example, we define a Mongoose schema for a User document. The schema specifies the fields and data types for the user document, as well as any validation rules.
+
 
 ### Here is a list of some of the most commonly used Mongoose methods:
 
@@ -96,3 +98,5 @@ module.exports = mongoose.model('User', userSchema);
 - ```findByIdAndUpdate()``` - finds a document by its _id field and updates it, returning the updated document.
 
 - ```findByIdAndDelete()``` - finds a document by its _id field and deletes it, returning the deleted document.
+
+- ```Thankyou! 💚```
