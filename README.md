@@ -9,7 +9,7 @@
 
 - Mongoose includes built-in type ```casting, validation, query building, and business logic hooks.```
 
-- Mongoose allows you to write ```validation logic``` before saving data into MongoDB, or attach specific behaviors to certain events in the lifecycle of a document.```
+- Mongoose allows you to write ```validation logic``` before saving data into MongoDB, or attach specific behaviors to certain events in the lifecycle of a document
 
 - Mongoose supports ```middleware```, which allows you to perform certain actions before or after specific events in the lifecycle of a document
 
