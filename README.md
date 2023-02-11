@@ -117,7 +117,14 @@ module.exports = mongoose.model('User', userSchema);
 
 - ```Transactions```: Mongoose provides support for transactions, allowing you to perform multiple operations as a single atomic operation.
 
-In summary, Mongoose provides a flexible and easy-to-use solution for developing applications with MongoDB, while also providing powerful features that allow you to ensure the integrity of your data and perform complex operations on your data.
+- In summary, Mongoose provides a flexible and easy-to-use solution for developing applications with MongoDB, while also providing powerful features that allow you to ensure the integrity of your data and perform complex operations on your data.
+
+- ```sort()```, ```limit()```, and ```skip()``` are Mongoose query options that are used to manipulate the results of a query. Here's a brief explanation of each:
+
+- sort(): This option allows you to sort the results of a query in ascending or descending order based on the value of one or more fields. For example, you can sort the results of a query by the "createdAt" field in descending order using the following code:
+
+```Model.find().sort({createdAt: -1});```
+
 
 
 - ```Thankyou! 💚```
