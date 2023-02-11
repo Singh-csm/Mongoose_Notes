@@ -3,7 +3,7 @@
 
 ## Here are some key points you can include in your notes on Mongoose:
 
-### Mongoose is an ```Object Data Modeling (ODM)``` library for MongoDB and Node.js.
+- Mongoose is an ```Object Data Modeling (ODM)``` library for MongoDB and Node.js.
 
 ### Mongoose provides a ```schema-based``` solution for modeling your application data, making it easy to work with MongoDB databases.
 
