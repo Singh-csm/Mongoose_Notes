@@ -124,9 +124,26 @@ module.exports = mongoose.model('User', userSchema);
 - sort(): This option allows you to sort the results of a query in ascending or descending order based on the value of one or more fields. For example, you can sort the results of a query by the "createdAt" field in descending order using the following code:
 
                     Model.find().sort({createdAt: -1});
+                    
 - limit(): This option allows you to limit the number of results returned by a query. For example, you can limit the results of a query to 10 documents using the following code:
 
-                    ``` { Model.find().limit(10); }```
+                    Model.find().limit(10); 
+
+- skip(): This option allows you to skip a certain number of results in a query. For example, you can skip the first 10 results of a query and return the next 10 results using the following code:
+
+                     Model.find().skip(10).limit(10);
+                     
+These query options can be combined to perform more complex queries, such as sorting the results of a query by multiple fields, limiting the number of results, and skipping a certain number of results.
+
+## The ```set``` and ```push``` methods are used to modify documents in MongoDB using ```Mongoose.```
+
+- ```set```: The set method is used to set the value of a field in a document. For example, you can use the set method to update the name of a user in the database:
+
+                UserModel.updateOne({_id: userId}, {$set: {name: "newName"}});
+
+- ```push```: The push method is used to add a new value to an array field in a document. For example, you can use the push method to add a new item to a user's list of favorite books:
+
+                UserModel.updateOne({_id: userId}, {$push: {favoriteBooks: "newBook"}});
 
  
 
